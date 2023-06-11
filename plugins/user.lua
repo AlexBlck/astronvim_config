@@ -10,5 +10,5 @@ return {
   --   end,
   -- },
   -- add dropbar
-  { "Bekaboo/dropbar.nvim" },
+  "Bekaboo/dropbar.nvim",
 }

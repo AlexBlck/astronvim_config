@@ -8,4 +8,5 @@ return {
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.markdown-and-latex.vimtex" },
+  { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
 }
