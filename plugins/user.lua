@@ -11,4 +11,8 @@ return {
   -- },
   -- add dropbar
   "Bekaboo/dropbar.nvim",
+  {
+    "christoomey/vim-tmux-navigator",
+    lazy = false,
+  },
 }
