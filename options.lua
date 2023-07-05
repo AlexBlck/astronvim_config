@@ -18,6 +18,10 @@ return {
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
     resession_enabled = false, -- enable experimental resession.nvim session management (will be default in AstroNvim v4)
     copilot_filetypes = { markdown = true },
+    mkdp_browser = '/usr/bin/chromium',
+    mkdp_echo_preview_url = 1,
+    mkdp_port = '7047',
+    mkdp_ip = 'localhost',
   },
 }
 -- If you need more control, you can use the function()...end notation
