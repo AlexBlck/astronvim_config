@@ -22,6 +22,7 @@ return {
     mkdp_echo_preview_url = 1,
     mkdp_port = '7047',
     mkdp_ip = 'localhost',
+    vimtex_view_method = 'zathura',
   },
 }
 -- If you need more control, you can use the function()...end notation

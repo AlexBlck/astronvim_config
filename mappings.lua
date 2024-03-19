@@ -20,8 +20,17 @@ return {
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
+    ["<leader>ll"] = { "<cmd>VimtexView<cr>"},
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    -- neotest
+    ["<leader>dw"] = { function ()
+      require("neotest").watch.toggle({
+        vim.fn.expand("%"),
+        vim.fn.expand("%:p:h")})
+    end,
+    desc = "Toggle neotest watch"
+    },
   },
   t = {
     -- setting a mapping to false will disable it
